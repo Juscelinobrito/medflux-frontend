@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { ReactNode } from "react";
 import { useClinic } from "@/app/providers/ClinicProvider";
 
@@ -44,5 +42,3 @@ export default function PermissionGuard({
   // Autorizado
   return <>{children}</>;
 }
-
-=========== fim de código ============

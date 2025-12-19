@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../../../contexts/AuthContext";
 
@@ -20,5 +18,3 @@ export default function PrivateRoute({
 
   return children;
 }
-
-=========== fim de código ============

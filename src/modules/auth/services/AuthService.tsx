@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { supabase } from "../../../lib/supabase";
 
 export async function signIn(
@@ -15,5 +13,3 @@ export async function signIn(
 export async function signOut() {
   return supabase.auth.signOut();
 }
-
-=========== fim de código ============

@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { Finance } from "../types/Finance";
 
 interface Props {
@@ -56,5 +54,3 @@ export default function FinanceTable({ data }: Props) {
     </div>
   );
 }
-
-=========== fim de código ============

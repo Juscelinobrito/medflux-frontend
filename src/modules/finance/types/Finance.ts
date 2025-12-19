@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/supabase";
 import { FinancialRecord } from "../types/FinancialRecord";
@@ -151,5 +149,3 @@ export default function Finance() {
     </div>
   );
 }
-
-=========== fim de código ============

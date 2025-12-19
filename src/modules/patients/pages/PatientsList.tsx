@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import PatientRow from "../components/PatientRow";
 import { Patient } from "../types/Patient";
 
@@ -46,5 +44,3 @@ export default function PatientsList() {
     </div>
   );
 }
-
-=========== fim de código ============

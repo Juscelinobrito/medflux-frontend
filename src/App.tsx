@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { Routes, Route } from "react-router-dom";
 import Login from "./modules/auth/pages/Login";
 import Logout from "./modules/auth/pages/Logout";
@@ -68,5 +66,3 @@ export default function App() {
     </Routes>
   );
 }
-
-=========== fim de código ============

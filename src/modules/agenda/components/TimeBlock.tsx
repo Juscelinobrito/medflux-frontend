@@ -1,5 +1,3 @@
-=========== início de código ============
-
 interface Props {
   time: string;
   isBooked?: boolean;
@@ -22,5 +20,3 @@ export default function TimeBlock({ time, isBooked = false }: Props) {
     </div>
   );
 }
-
-=========== fim de código ============

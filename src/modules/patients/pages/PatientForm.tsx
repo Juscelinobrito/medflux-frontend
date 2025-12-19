@@ -1,5 +1,3 @@
-=========== início de código ============
-
 export default function PatientForm() {
   return (
     <div className="p-6 max-w-3xl space-y-6">
@@ -39,5 +37,3 @@ export default function PatientForm() {
     </div>
   );
 }
-
-=========== fim de código ============

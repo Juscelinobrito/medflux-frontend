@@ -1,5 +1,3 @@
-=========== início de código ============
-
 export type FinancialType = "INCOME" | "EXPENSE";
 
 export type FinancialRecord = {
@@ -9,5 +7,3 @@ export type FinancialRecord = {
   type: FinancialType;
   created_at: string;
 };
-
-=========== fim de código ============

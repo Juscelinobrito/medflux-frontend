@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import TimeBlock from "./TimeBlock";
 
 const hours = [
@@ -35,5 +33,3 @@ export default function TimeGrid() {
     </div>
   );
 }
-
-=========== fim de código ============

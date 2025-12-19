@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/supabase";
 import { Plus, Trash2 } from "lucide-react";
@@ -212,5 +210,3 @@ export default function Users() {
     </div>
   );
 }
-
-=========== fim de código ============

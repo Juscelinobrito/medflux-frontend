@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { createContext, useContext, useEffect, useState } from "react";
 import { supabase } from "../lib/supabase";
 
@@ -54,5 +52,3 @@ export function AuthProvider({
 export function useAuth() {
   return useContext(AuthContext);
 }
-
-=========== fim de código ============

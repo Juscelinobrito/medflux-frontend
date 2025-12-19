@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { supabase } from "../../../lib/supabase";
 import { Finance } from "../types/Finance";
 
@@ -12,5 +10,3 @@ export async function getFinanceData() {
   if (error) throw error;
   return data as Finance[];
 }
-
-=========== fim de código ============

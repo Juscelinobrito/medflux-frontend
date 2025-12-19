@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { NavLink } from "react-router-dom";
 
 const menuItems = [
@@ -54,5 +52,3 @@ export default function Sidebar() {
     </aside>
   );
 }
-
-=========== fim de código ============

@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { supabase } from "../../../lib/supabase";
@@ -54,5 +52,3 @@ export default function AcceptInvite() {
     </div>
   );
 }
-
-=========== fim de código ============

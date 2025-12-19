@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { Patient } from "../types/Patient";
 
 interface Props {
@@ -31,5 +29,3 @@ export default function PatientRow({ patient }: Props) {
     </div>
   );
 }
-
-=========== fim de código ============

@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/supabase";
 import { Plus } from "lucide-react";
@@ -120,5 +118,3 @@ export default function Invites() {
     </div>
   );
 }
-
-=========== fim de código ============

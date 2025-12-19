@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import FinanceCard from "../components/FinanceCard";
 import FinanceTable from "../components/FinanceTable";
 import { Finance } from "../types/Finance";
@@ -65,5 +63,3 @@ export default function FinanceDashboard() {
     </div>
   );
 }
-
-=========== fim de código ============

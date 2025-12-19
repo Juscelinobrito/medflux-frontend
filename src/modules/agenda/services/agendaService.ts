@@ -1,5 +1,3 @@
-=========== início de código ============
-
 import { supabase } from "../../../lib/supabase";
 import { Appointment } from "../types/Appointment";
 
@@ -12,5 +10,3 @@ export async function getAppointments() {
   if (error) throw error;
   return data as Appointment[];
 }
-
-=========== fim de código ============

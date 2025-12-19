@@ -1,5 +1,3 @@
-=========== início de código ============
-
 interface Props {
   label: string;
   value: string;
@@ -15,5 +13,3 @@ export default function FinanceCard({ label, value }: Props) {
     </div>
   );
 }
-
-=========== fim de código ============
